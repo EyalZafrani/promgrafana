@@ -6,7 +6,7 @@ deleteDatasources:
   - name: graphite
     orgId: 1
 datasources:
-  - name: graphite
+  - name: Graphite
     # <string, required> datasource type. Required
     type: Graphite
     # <string, required> access mode. direct or proxy. Required
