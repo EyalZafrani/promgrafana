@@ -9,3 +9,10 @@ providers:
   editable: true
   options:
     path: /etc/grafana/provisioning/dashboards
+- name: 'graphit'
+  orgId: 2
+  folder: ''
+  type: file
+  disableDeletion: false
+  editable: true
+
