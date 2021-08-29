@@ -54,7 +54,7 @@ datasources:
     # <string, required> access mode. direct or proxy. Required
     access: proxy
     # <int> org id. will default to orgId 1 if not specified
-    orgId: 1
+    orgId: 2
     # <string> url
     url: http://Graphite:8080
     # <string> database password, if used
