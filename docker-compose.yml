@@ -70,8 +70,6 @@ services:
   graphite:
     image: graphiteapp/graphite-statsd
     container_name: graphite
-    ports:
-      - 81:81
     restart: always
     networks:
       - back-tier
