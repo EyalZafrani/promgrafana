@@ -5,7 +5,7 @@ apiVersion: 1
 deleteDatasources:
   - name: Prometheus
     orgId: 1
-  - name: Graphit
+  - name: graphit
     orgId: 2
 # list of datasources to insert/update depending
 # whats available in the database
@@ -49,9 +49,9 @@ datasources:
   version: 1
   # <bool> allow users to edit datasources from the UI.
   editable: true
-- name: Graphit
+- name: graphit
   # <string, required> datasource type. Required
-  type: Graphit
+  type: graphit
   # <string, required> access mode. direct or proxy. Required
   access: proxy
   # <int> org id. will default to orgId 1 if not specified
